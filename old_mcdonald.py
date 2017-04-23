@@ -3,14 +3,13 @@ from sys import argv
 script, adjective, noun, animal, noise = argv
 eio = "Ee Aye Ee Aye Ohh"
 
-print adjective, "McDonald had a", noun, ","
-print eio, "."
-print "And on that", noun, "he had a", animal, ","
-print eio, "."
-print "With a", noise, noise, "here,"
-print "And a", noise, noise, "there,"
-print "Here a", noise, "there a", noise
-print "Everywhere a", noise, noise, ","
-print adjective, " McDonald had a", noun, "."
-print eio, "."
-
+print "%s McDonald had a %s," % (adjective, noun)
+print  "%s." % (eio)
+print "And on that %s he had a %s, " % (noun, animal)
+print  "%s." % (eio)
+print "With a %s %s here," % (noise, noise)
+print "And a %s %s there." % (noise, noise)
+print "Here a %s, there a %s," % (noise, noise)
+print "Everywhere a %s %s," % (noise, noise)
+print "%s McDonald had a %s," % (adjective, noun)
+print  "%s." % (eio)
