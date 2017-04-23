@@ -1,6 +1,15 @@
-from sys import argv
+# from sys import argv
 
-script, adjective, noun, animal, noise = argv
+# script, adjective, noun, animal, noise = argv
+print "Give me a noun."
+noun = raw_input()
+print "Give me an adjective."
+adjective = raw_input()
+print "Give me an animal."
+animal = raw_input()
+print "Give me a noise."
+noise = raw_input()
+
 eio = "Ee Aye Ee Aye Ohh"
 
 print "%s McDonald had a %s," % (adjective, noun)
